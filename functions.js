@@ -1,5 +1,3 @@
-// Author: gao00147
-
 const list = (clients) => {
   return clients.map((client) => {
     return `<li class="list-group-item d-flex justify-content-between" data-index="${client.index}">
